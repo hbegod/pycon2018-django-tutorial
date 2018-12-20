@@ -1,5 +1,24 @@
 from django.db import models
 
+
+class DirectorySuppliers(models.Model):
+    name = models.CharField(max_length=30)
+
+
+class DirectoryManufacturers(models.Model):
+    name = models.CharField(max_length=30)
+
+
+class DirectoryNomenclature(models.Model):
+    nomenclature_name = models.CharField(max_length=30)
+    manufacturers_name = models.OneToOneField(DirectoryManufacturers.name, on_delete=models.CASCADE)
+    suppliers_name = models.OneToOneField(DirectorySuppliers.name.name, on_delete=models.CASCADE)
+    last_name = models.CharField(max_length=30)
+
+
+class DirectoryChecks(models.Model):
+    Byers_name = models.CharField(max_length=30)
+
 # TODO Модели добалять сюда.
 # TODO  Необходимо сделать Django модели, которую будут покрывать логику.
 # TODO

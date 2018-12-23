@@ -1,0 +1,469 @@
+[
+  {
+    "model": "galaxy.AstronomicalObjectScale",
+    "pk": 1,
+    "fields": {
+      "name": "Одиночные объекты"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectScale",
+    "pk": 2,
+    "fields": {
+      "name": "Системы"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectScale",
+    "pk": 3,
+    "fields": {
+      "name": "Структуры"
+    }
+  },
+  {
+    "model": "galaxy.ClassificationType",
+    "pk": 1,
+    "fields": {
+      "name": "Туманности"
+    }
+  },
+  {
+    "model": "galaxy.ClassificationType",
+    "pk": 2,
+    "fields": {
+      "name": "Галактики"
+    }
+  },
+  {
+    "model": "galaxy.ClassificationType",
+    "pk": 3,
+    "fields": {
+      "name": "Системы"
+    }
+  },
+  {
+    "model": "galaxy.ClassificationType",
+    "pk": 4,
+    "fields": {
+      "name": "Звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 1,
+    "fields": {
+      "name": "Эмиссионные"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 2,
+    "fields": {
+      "name": "Отражательные"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 3,
+    "fields": {
+      "name": "Тёмные"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 4,
+    "fields": {
+      "name": "Области H I"
+    }
+  },
+  {
+
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 5,
+    "fields": {
+      "name": "Скопления"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 6,
+    "fields": {
+      "name": "Сверхскопления"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 7,
+    "fields": {
+      "name": "Галактические компоненты"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 8,
+    "fields": {
+      "name": "По морфологии"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 9,
+    "fields": {
+      "name": "По размерам"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 10,
+    "fields": {
+      "name": "По типу"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 11,
+    "fields": {
+      "name": "Звездообразующие"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 12,
+    "fields": {
+      "name": "Тёмные"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 13,
+    "fields": {
+      "name": "Протогалактики"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 14,
+    "fields": {
+      "name": "С Активными ядрами"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 15,
+    "fields": {
+      "name": "Планетные"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 16,
+    "fields": {
+      "name": "Звёздные"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 17,
+    "fields": {
+      "name": "Двойные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 18,
+    "fields": {
+      "name": "Тройные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 19,
+    "fields": {
+      "name": "Кратные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 20,
+    "fields": {
+      "name": "Спектральные классы звёзд"
+    }
+  },
+
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 21,
+    "fields": {
+      "name": "Звёздные населения III, II, I"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 22,
+    "fields": {
+      "name": "Пекулярные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 23,
+    "fields": {
+      "name": "Звёздная эволюция"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 24,
+    "fields": {
+      "name": "Переменные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 25,
+    "fields": {
+      "name": "Компактные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectType",
+    "pk": 26,
+    "fields": {
+      "name": "Тёмные звёзды"
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 1,
+    "fields": {
+      "asto_type": 20,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 2,
+    "fields": {
+      "asto_type": 21,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 3,
+    "fields": {
+      "asto_type": 22,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 4,
+    "fields": {
+      "asto_type": 23,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 5,
+    "fields": {
+      "asto_type": 24,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 6,
+    "fields": {
+      "asto_type": 25,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 7,
+    "fields": {
+      "asto_type": 26,
+      "classification": 4,
+      "scale": 1
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 8,
+    "fields": {
+      "asto_type": 5,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 9,
+    "fields": {
+      "asto_type": 6,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 10,
+    "fields": {
+      "asto_type": 7,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 11,
+    "fields": {
+      "asto_type": 8,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 12,
+    "fields": {
+      "asto_type": 9,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 13,
+    "fields": {
+      "asto_type": 10,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 14,
+    "fields": {
+      "asto_type": 11,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 15,
+    "fields": {
+      "asto_type": 12,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 16,
+    "fields": {
+      "asto_type": 13,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 17,
+    "fields": {
+      "asto_type": 14,
+      "classification": 2,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 18,
+    "fields": {
+      "asto_type": 15,
+      "classification": 3,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 19,
+    "fields": {
+      "asto_type": 16,
+      "classification": 3,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 20,
+    "fields": {
+      "asto_type": 17,
+      "classification": 3,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 21,
+    "fields": {
+      "asto_type": 18,
+      "classification": 3,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 22,
+    "fields": {
+      "asto_type": 19,
+      "classification": 3,
+      "scale": 2
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 23,
+    "fields": {
+      "asto_type": 1,
+      "classification": 1,
+      "scale": 3
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 24,
+    "fields": {
+      "asto_type": 2,
+      "classification": 1,
+      "scale": 3
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 25,
+    "fields": {
+      "asto_type": 3,
+      "classification": 1,
+      "scale": 3
+    }
+  },
+  {
+    "model": "galaxy.AstronomicalObjectGroup",
+    "pk": 26,
+    "fields": {
+      "asto_type": 4,
+      "classification": 1,
+      "scale": 3
+    }
+  }
+]

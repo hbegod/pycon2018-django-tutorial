@@ -1,0 +1,37 @@
+[
+  {
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+      "question_text": "some text",
+      "pub_date": "2018-12-23T03:13:05Z"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "choice_text": "1",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "choice_text": "2",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "choice_text": "3",
+      "votes": 0
+    }
+  }
+]

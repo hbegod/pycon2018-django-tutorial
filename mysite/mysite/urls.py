@@ -18,9 +18,7 @@ from django.urls import include, path
 
 from . import views
 
-
+# TODO Корневой url начинать заполнять от сюда.
 urlpatterns = [
-    path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
-    path('', views.index),
 ]

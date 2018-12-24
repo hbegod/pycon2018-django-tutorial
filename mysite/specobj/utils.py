@@ -1,26 +1,24 @@
 from .models import Obj, Spec
 
 
-
 def get_object_specs(object):
-    #  Person.object - менеджер модели
-    #  qs_person - это QuerySet
-    qs_specs = Obj.
+    return Spec.objects.filter(link__name=object.name)
 
 
-    
-    qs_person = Person.objects.filter(last_name__contains=surname)
-    try:
-        #  person - инстанс модели Рerson.
-        person =  qs_person.get(first_name__contains=name)
-        # обработка отсутствия записи в базе
-    except Person.DoesNotExist as e:
-        raise VseSlomalosExeption("Это кто вообще?")
-    except Person.MultipleObjectsReturned as e:
-        raise VseSlomalosExeption("А что их несколько?")
-    return
+def set_specs_unactual(object, date):
+    get_object_specs(object).filter(date__lte=date, is_actual=True).update(is_actual=False)
 
 
+def set_obj_for_deleting():
+    for object in Obj.objects.filter(is_deleted=False):
+        if object.spec_set.filter(is_actual=True).count() == 0:
+            object.is_deleted=True
+            object.save()
+
+
+
+def delete_objects():
+    Obj.objects.filter(is_deleted=True).delete()
 
 
 

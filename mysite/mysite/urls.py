@@ -21,5 +21,8 @@ from . import views
 # TODO Корневой url начинать заполнять от сюда.
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.index),
+    path('sales/', include('sales.urls')),
+    path('store/', include('store.urls')),
+    path('cart/', include('cart.urls'))
 ]

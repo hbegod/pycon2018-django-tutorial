@@ -1,12 +1,13 @@
 # TODO Тут наполнять урлами.
-from django.contrib import admin
-from django.urls import include, path
+from django.urls import path, register_converter
 
-from . import views
+from . import views, converters
+
+register_converter(converters.emailConverter, 'email')
 
 
 urlpatterns = [
     path('sales/', views.sales),
     path('favorite/', views.favorite),
-    path('', views.category_analytic())
+    path('category_analytic/<slug:category>/<email:user_email>', views.category_analytic)
 ]

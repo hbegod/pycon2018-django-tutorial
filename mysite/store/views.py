@@ -58,7 +58,7 @@ def incomes_list(request, income_type=None):
     )
 
 
-def imcomes_for_date(request, admission_date, income_type=None):
+def incomes_for_date(request, admission_date, income_type=None):
     """Список заявок на дату, с возможностью указания типа.
 
     :param request: HttpRequest
